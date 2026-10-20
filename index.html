@@ -450,6 +450,22 @@
             background: var(--warning);
         }
 
+        .hero-content-warning {
+            margin-top: 28px;
+            max-width: 820px;
+        }
+
+        .hero-content-warning a {
+            color: var(--warning);
+            font-weight: 800;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .hero-content-warning a:hover {
+            color: var(--text);
+        }
+
         .notice strong {
             display: block;
             margin-bottom: 4px;
@@ -787,9 +803,21 @@
 
             <div class="meta-card">
                 <span>Соңғы жаңарту</span>
-                <strong>30 қыркүйек 2026</strong>
+                <strong>21 қазан 2026</strong>
             </div>
 
+        </div>
+
+        <div class="notice warning hero-content-warning" role="note">
+            <div class="notice-icon" aria-hidden="true">!</div>
+            <div>
+                <strong>Жас шектеулері туралы маңызды ақпарат</strong>
+                <p>
+                    Ойында шошытатын дыбыстар, кенеттен басталатын қуғындар және
+                    ойдан шығарылған зорлық-зомбылық элементтері бар.
+                    <a href="#age-warning">Мазмұн туралы ескертуді оқу →</a>
+                </p>
+            </div>
         </div>
 
     </section>
@@ -820,7 +848,8 @@
                 <a href="#security">10 — Қауіпсіздік</a>
                 <a href="#retention">11 — Сақтау және жою</a>
                 <a href="#changes">12 — Өзгерістер</a>
-                <a href="#contact">13 — Байланыс</a>
+                <a href="#age-warning">13 — Жас шектеулері</a>
+                <a href="#contact">14 — Байланыс</a>
             </div>
 
             <div class="status">
@@ -1209,8 +1238,63 @@
                 </div>
             </section>
 
-            <section class="section" id="contact">
+            <section class="section" id="age-warning">
                 <div class="section-number">13</div>
+                <div>
+                    <h2>Жас шектеулері және мазмұн туралы ескерту</h2>
+
+                    <p>
+                        <strong>Reach to Green Neighbor House</strong> — қорқыныш
+                        элементтері бар ойын. Кейбір көріністер мен дыбыстар сезімтал
+                        ойыншыларға, соның ішінде балаларға, үрейлі көрінуі мүмкін.
+                    </p>
+
+                    <div class="notice warning" role="note">
+                        <div class="notice-icon" aria-hidden="true">!</div>
+                        <div>
+                            <strong>Назар аударыңыз: қорқынышты әсерлер</strong>
+                            <p>
+                                Ойында қорқынышты дыбыстар, қарсыластардың кенеттен
+                                пайда болуы, күтпеген қуғындар және ойдан шығарылған
+                                зорлық-зомбылық көріністері кездеседі. Кейбір сәттер
+                                күтпеген жерден қатты шошытуы мүмкін.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3>Ойын мазмұны</h3>
+                    <ul>
+                        <li>Үрейлі дыбыстар, дауыстар және қараңғы атмосфера.</li>
+                        <li>Қарсыластардың тосыннан пайда болуы мен ойыншыны қууы.</li>
+                        <li>Кейіпкерлердің ұсталып қалуы және шынайы емес зорлық-зомбылық элементтері.</li>
+                        <li>Көп ойыншы режимінде басқа ойыншылармен өзара әрекеттесу.</li>
+                    </ul>
+
+                    <h3>Жас рейтингі</h3>
+                    <p>
+                        Ойынның ресми жас рейтингі елге және қолданылатын рейтинг
+                        жүйесіне байланысты өзгеруі мүмкін. Өз аймағыңыздағы нақты
+                        жас шектеуін Google Play дүкеніндегі ойын парағынан тексеріңіз.
+                        Бұл ескерту ресми жас рейтингін алмастырмайды.
+                    </p>
+
+                    <div class="notice" role="note">
+                        <div class="notice-icon" aria-hidden="true">i</div>
+                        <div>
+                            <strong>Ойынды бастамас бұрын</strong>
+                            <p>
+                                Ата-аналар мен заңды өкілдер ойынның мазмұнын және
+                                өз өңіріндегі жас рейтингін ескергені жөн.
+                                Қатты дыбыстар мазаласа, ойын ішіндегі дыбыс
+                                деңгейін азайтыңыз немесе ойынды тоқтатыңыз.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <div class="section-number">14</div>
                 <div>
                     <h2>Байланыс</h2>
 
@@ -1387,6 +1471,7 @@
             "security",
             "retention",
             "changes",
+            "age-warning",
             "contact"
         ];
 
